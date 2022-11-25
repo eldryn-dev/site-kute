@@ -1,1 +1,56 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Passion+One&family=Shadows+Into+Light&family=Sriracha&display=swap');
+/*font-family: 'Chewy'*/
+
+header{
+    background:rgb(0, 0, 0) url(midia/bckg-02.png) center center no-repeat ;
+    background-attachment: fixed;
+    color: white;
+    margin: -8px -8px 12px -8px;
+    height: 200px;
+}
+
+header > h1 {
+    background: black url(midia/bckg-03.png) center center no-repeat fixed ;
+    height: 120px;
+    
+    margin: auto;
+    min-width: 25vw;
+    box-shadow: 1px 1px 3px black;
+
+
+    color:rgb(255, 255, 255) ;
+    font-family: 'Chewy', Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    text-align: center;
+    
+
+}
+
+header > p {
+    display: inline;
+    padding-right: 15px;
+}
+
+
+
+nav > ul {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+ul > li {
+    display: inline;
+    
+}
+
+ul > li :hover{
+    text-decoration: underline;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
